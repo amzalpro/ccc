@@ -1,88 +1,66 @@
 # ccc
 
-A starter Node.js project with quality tooling and best practices.
+> Sandbox / dépôt de démarrage pour expérimentations et POC rapides.
 
-## Features
+## 🎯 Objectif
+Fournir une base minimale mais soignée (qualité, CI, gouvernance) pour itérer rapidement.
 
-- Modern Node.js setup with ES2021 support
-- ESLint and Prettier for code quality
-- GitHub Actions CI/CD pipeline
-- Dependabot for automated dependency updates
-- Comprehensive project documentation
-- Issue and PR templates
+## ✨ Fonctionnalités prévues
+- [ ] Structure Node.js minimale
+- [ ] Lint & Format
+- [ ] Tests (placeholder)
+- [ ] CI GitHub Actions
+- [ ] Gestion des dépendances (Dependabot)
 
-## Getting Started
+## 🗺️ Roadmap courte
+| Étape | Description | Statut |
+|-------|-------------|--------|
+| 1 | Initialisation qualité (cette PR) | ✅ |
+| 2 | Première feature utile | ⏳ |
+| 3 | Documentation enrichie | ⏳ |
+| 4 | Release 0.1.0 | ⏳ |
 
-### Prerequisites
-
-- Node.js 14.0.0 or higher
-- npm (comes with Node.js)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/amzalpro/ccc.git
-   cd ccc
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Usage
-
-Start the application:
-```bash
-npm start
+## 🧱 Structure
+```
+/src
+/tests
 ```
 
-### Development
-
-#### Linting
-
-Run ESLint to check code quality:
+## 🚀 Démarrage
 ```bash
-npm run lint
+git clone https://github.com/amzalpro/ccc.git
+cd ccc
+npm install
+npm run dev
 ```
 
-Fix linting issues automatically:
-```bash
-npm run lint:fix
-```
-
-#### Formatting
-
-Check code formatting:
-```bash
-npm run format:check
-```
-
-Format code with Prettier:
-```bash
-npm run format
-```
-
-#### Testing
-
-Run tests:
+## 🧪 Tests
 ```bash
 npm test
 ```
 
-## Contributing
+## 🔍 Qualité
+- ESLint (règles de base)
+- Prettier
+- CI (lint + tests (+ build si présent))
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+## 📦 Versioning
+SemVer. Voir CHANGELOG.md
 
-## License
+## 🤝 Contribuer
+Voir CONTRIBUTING.md
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🔐 Sécurité
+Voir SECURITY.md
 
-## Security
+## 🗣️ Code de conduite
+Voir CODE_OF_CONDUCT.md
 
-Please read [SECURITY.md](SECURITY.md) for information on reporting security vulnerabilities.
+## 📄 Licence
+MIT — Copyright (c) 2025 Amzal Pro
 
-## Changelog
+## ⭐ Support
+Une ⭐ aide à la visibilité.
 
-See [CHANGELOG.md](CHANGELOG.md) for a detailed history of changes to this project.
+---
+_Ajuster au fil des évolutions._
